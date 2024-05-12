@@ -4,8 +4,8 @@ import config from './module-federation.config';
 export default withModuleFederation({
   ...config,
   remotes: [
-    ['shop', 'http://localhost:3000/shop'],
-    ['cart', 'http://localhost:3000/cart'],
-    ['about', 'http://localhost:3000/about'],
+    ['shop', 'https://apaul4ariqt.github.io/angularpages/shop'],
+    ['cart', 'https://apaul4ariqt.github.io/angularpages/cart'],
+    ['about', 'https://apaul4ariqt.github.io/angularpages/about'],
   ],
 });

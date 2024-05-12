@@ -1,0 +1,1 @@
+(self.webpackChunkshop=self.webpackChunkshop||[]).push([[76],{7925:(t,n,o)=>{o.r(n),o.d(n,{remoteRoutes:()=>s});const s=[{path:"",component:o(375).a}]}}]);
