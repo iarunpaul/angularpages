@@ -1,1 +1,0 @@
-(self.webpackChunkabout=self.webpackChunkabout||[]).push([[76],{6876:(u,t,o)=>{o.r(t),o.d(t,{remoteRoutes:()=>e});const e=[{path:"",component:o(1114).a}]}}]);
