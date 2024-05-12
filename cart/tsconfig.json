@@ -10,7 +10,9 @@
     "noFallthroughCasesInSwitch": true
   },
   "files": [],
-  "include": [],
+  "include": [
+    "cart/src/app/remote-entry/entry.routes.ts",
+  ],
   "references": [
     {
       "path": "./tsconfig.editor.json"

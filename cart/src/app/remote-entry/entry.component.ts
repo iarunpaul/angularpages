@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { NxWelcomeModule } from './nx-welcome.module';
 
 @Component({
   standalone: true,
-  imports: [CommonModule, NxWelcomeComponent],
+  imports: [CommonModule, NxWelcomeModule],
   selector: 'app-cart-entry',
   template: `<app-nx-welcome></app-nx-welcome>`,
 })

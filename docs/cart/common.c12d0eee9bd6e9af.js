@@ -1,1 +1,0 @@
-(self.webpackChunkcart=self.webpackChunkcart||[]).push([[76],{7355:(s,n,t)=>{t.r(n),t.d(n,{remoteRoutes:()=>e});const e=[{path:"",component:t(2325).a}]}}]);

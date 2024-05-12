@@ -1,0 +1,1 @@
+(self.webpackChunkcart=self.webpackChunkcart||[]).push([[439],{4439:(l,n,o)=>{o.r(n);var s=o(8782);const r={providers:[(0,o(7849).provideRouter)([{path:"",loadChildren:()=>o.e(76).then(o.bind(o,7355)).then(t=>t.remoteRoutes)}])]};var h=o(4455);(0,s.bootstrapApplication)(h.a,r).catch(t=>console.error(t))}}]);
