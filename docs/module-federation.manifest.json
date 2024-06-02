@@ -1,3 +1,4 @@
 {
-  "home": "http://localhost:4201"
+  "home": "http://localhost:4201",
+  "blog": "http://localhost:4202"
 }
