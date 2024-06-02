@@ -112,7 +112,7 @@ __webpack_require__.d(exports, {
 /******/ 	// This function allow to reference async chunks
 /******/ 	__webpack_require__.u = (chunkId) => {
 /******/ 		// return url for filenames based on template
-/******/ 		return "" + (chunkId === 76 ? "common" : chunkId) + "." + {"14":"1a9047bded84b4ce","37":"5a90be144db03534","45":"cf16fe7101e676d2","76":"9b327907803a5d23","87":"5891bd5257dff5e6","177":"4bf4a0f4e88bfee7","345":"320fbfde5eed12e5","568":"51c0a066cd27e326","626":"f912beb5705eac62","656":"0c060452099f5109","723":"e164137cbf23760c","778":"6eb1c9e0a9668242","866":"57b002117c25869b","901":"2d224838f01a3961","953":"0cf8509965d9eebd"}[chunkId] + ".js";
+/******/ 		return "" + (chunkId === 76 ? "common" : chunkId) + "." + {"14":"1a9047bded84b4ce","37":"5a90be144db03534","45":"cf16fe7101e676d2","76":"cf2922e8fb0f7f8f","87":"5891bd5257dff5e6","137":"bf2f3cb1a2040551","177":"4bf4a0f4e88bfee7","275":"17aaf2627eb6611d","345":"320fbfde5eed12e5","407":"fb031a3c682115a0","521":"9da678fe39ee0c0f","568":"51c0a066cd27e326","626":"f912beb5705eac62","656":"0c060452099f5109","723":"e164137cbf23760c","778":"6eb1c9e0a9668242","784":"eca4b88aff94d1e6","866":"57b002117c25869b","901":"2d224838f01a3961","953":"0cf8509965d9eebd"}[chunkId] + ".js";
 /******/ 	};
 /******/ })();
 /******/ 
@@ -233,14 +233,16 @@ __webpack_require__.d(exports, {
 /******/ 		var promises = [];
 /******/ 		switch(name) {
 /******/ 			case "default": {
-/******/ 				register("@angular/common/http", "18.0.0", () => (Promise.all([__webpack_require__.e(723), __webpack_require__.e(866), __webpack_require__.e(45), __webpack_require__.e(778), __webpack_require__.e(626)]).then(() => (() => (__webpack_require__(1626))))));
+/******/ 				register("@angular/common/http", "18.0.0", () => (Promise.all([__webpack_require__.e(723), __webpack_require__.e(866), __webpack_require__.e(778), __webpack_require__.e(45), __webpack_require__.e(626)]).then(() => (() => (__webpack_require__(1626))))));
 /******/ 				register("@angular/common", "18.0.0", () => (Promise.all([__webpack_require__.e(723), __webpack_require__.e(177)]).then(() => (() => (__webpack_require__(177))))));
 /******/ 				register("@angular/core", "18.0.0", () => (Promise.all([__webpack_require__.e(866), __webpack_require__.e(778), __webpack_require__.e(953)]).then(() => (() => (__webpack_require__(3953))))));
-/******/ 				register("@angular/platform-browser", "18.0.0", () => (Promise.all([__webpack_require__.e(723), __webpack_require__.e(45), __webpack_require__.e(345)]).then(() => (() => (__webpack_require__(345))))));
-/******/ 				register("@angular/router", "18.0.0", () => (Promise.all([__webpack_require__.e(723), __webpack_require__.e(866), __webpack_require__.e(45), __webpack_require__.e(778), __webpack_require__.e(901), __webpack_require__.e(14)]).then(() => (() => (__webpack_require__(7901))))));
+/******/ 				register("@angular/platform-browser", "18.0.0", () => (Promise.all([__webpack_require__.e(723), __webpack_require__.e(45), __webpack_require__.e(275), __webpack_require__.e(345)]).then(() => (() => (__webpack_require__(345))))));
+/******/ 				register("@angular/router", "18.0.0", () => (Promise.all([__webpack_require__.e(723), __webpack_require__.e(866), __webpack_require__.e(778), __webpack_require__.e(45), __webpack_require__.e(14), __webpack_require__.e(901)]).then(() => (() => (__webpack_require__(7901))))));
 /******/ 				register("@ng-mf-personal-profile/shared/directives", "0.0.0", () => (Promise.all([__webpack_require__.e(723), __webpack_require__.e(76)]).then(() => (() => (__webpack_require__(1948))))));
-/******/ 				register("@ng-mf-personal-profile/shared/modules", "0.0.0", () => (Promise.all([__webpack_require__.e(723), __webpack_require__.e(45), __webpack_require__.e(76)]).then(() => (() => (__webpack_require__(116))))));
-/******/ 				register("@ng-mf-personal-profile/shared/services", "0.0.0", () => (Promise.all([__webpack_require__.e(723), __webpack_require__.e(866), __webpack_require__.e(76)]).then(() => (() => (__webpack_require__(3314))))));
+/******/ 				register("@ng-mf-personal-profile/shared/modules", "0.0.0", () => (Promise.all([__webpack_require__.e(723), __webpack_require__.e(45), __webpack_require__.e(521), __webpack_require__.e(76)]).then(() => (() => (__webpack_require__(116))))));
+/******/ 				register("@ng-mf-personal-profile/shared/services", "0.0.0", () => (Promise.all([__webpack_require__.e(723), __webpack_require__.e(866), __webpack_require__.e(407), __webpack_require__.e(76)]).then(() => (() => (__webpack_require__(5201))))));
+/******/ 				register("contentful", "10.11.7", () => (__webpack_require__.e(137).then(() => (() => (__webpack_require__(9137))))));
+/******/ 				register("ngx-markdown", "18.0.0", () => (Promise.all([__webpack_require__.e(723), __webpack_require__.e(866), __webpack_require__.e(778), __webpack_require__.e(45), __webpack_require__.e(14), __webpack_require__.e(275), __webpack_require__.e(784)]).then(() => (() => (__webpack_require__(1784))))));
 /******/ 				register("rxjs/operators", "7.8.1", () => (Promise.all([__webpack_require__.e(656), __webpack_require__.e(37)]).then(() => (() => (__webpack_require__(7037))))));
 /******/ 				register("rxjs", "7.8.1", () => (Promise.all([__webpack_require__.e(656), __webpack_require__.e(87)]).then(() => (() => (__webpack_require__(4087))))));
 /******/ 			}
@@ -425,12 +427,14 @@ __webpack_require__.d(exports, {
 /******/ 		6723: () => (loadStrictSingletonVersionCheckFallback("default", "@angular/core", [2,18,0,0], () => (Promise.all([__webpack_require__.e(866), __webpack_require__.e(778), __webpack_require__.e(953)]).then(() => (() => (__webpack_require__(3953))))))),
 /******/ 		7045: () => (loadStrictSingletonVersionCheckFallback("default", "@angular/common", [2,18,0,0], () => (__webpack_require__.e(177).then(() => (() => (__webpack_require__(177))))))),
 /******/ 		9586: () => (loadFallback("default", "@ng-mf-personal-profile/shared/directives", () => (__webpack_require__.e(76).then(() => (() => (__webpack_require__(1948))))))),
-/******/ 		3198: () => (loadFallback("default", "@ng-mf-personal-profile/shared/modules", () => (__webpack_require__.e(76).then(() => (() => (__webpack_require__(116))))))),
-/******/ 		3894: () => (loadFallback("default", "@ng-mf-personal-profile/shared/services", () => (Promise.all([__webpack_require__.e(866), __webpack_require__.e(76)]).then(() => (() => (__webpack_require__(3314))))))),
+/******/ 		3198: () => (loadFallback("default", "@ng-mf-personal-profile/shared/modules", () => (Promise.all([__webpack_require__.e(521), __webpack_require__.e(76)]).then(() => (() => (__webpack_require__(116))))))),
+/******/ 		3894: () => (loadFallback("default", "@ng-mf-personal-profile/shared/services", () => (Promise.all([__webpack_require__.e(866), __webpack_require__.e(407), __webpack_require__.e(76)]).then(() => (() => (__webpack_require__(5201))))))),
 /******/ 		4866: () => (loadStrictSingletonVersionCheckFallback("default", "rxjs", [2,7,8,0], () => (Promise.all([__webpack_require__.e(656), __webpack_require__.e(87)]).then(() => (() => (__webpack_require__(4087))))))),
 /******/ 		2778: () => (loadStrictSingletonVersionCheckFallback("default", "rxjs/operators", [2,7,8,0], () => (Promise.all([__webpack_require__.e(656), __webpack_require__.e(37)]).then(() => (() => (__webpack_require__(7037))))))),
 /******/ 		7275: () => (loadStrictSingletonVersionCheckFallback("default", "@angular/common/http", [2,18,0,0], () => (Promise.all([__webpack_require__.e(866), __webpack_require__.e(778), __webpack_require__.e(626)]).then(() => (() => (__webpack_require__(1626))))))),
-/******/ 		4014: () => (loadStrictSingletonVersionCheckFallback("default", "@angular/platform-browser", [2,18,0,0], () => (__webpack_require__.e(345).then(() => (() => (__webpack_require__(345)))))))
+/******/ 		4014: () => (loadStrictSingletonVersionCheckFallback("default", "@angular/platform-browser", [2,18,0,0], () => (Promise.all([__webpack_require__.e(275), __webpack_require__.e(345)]).then(() => (() => (__webpack_require__(345))))))),
+/******/ 		1521: () => (loadStrictSingletonVersionCheckFallback("default", "ngx-markdown", [1,18,0,0], () => (Promise.all([__webpack_require__.e(866), __webpack_require__.e(778), __webpack_require__.e(14), __webpack_require__.e(275), __webpack_require__.e(784)]).then(() => (() => (__webpack_require__(1784))))))),
+/******/ 		6407: () => (loadStrictSingletonVersionCheckFallback("default", "contentful", [1,10,11,7], () => (__webpack_require__.e(137).then(() => (() => (__webpack_require__(9137)))))))
 /******/ 	};
 /******/ 	// no consumes in initial chunks
 /******/ 	var chunkMapping = {
@@ -440,8 +444,14 @@ __webpack_require__.d(exports, {
 /******/ 		"45": [
 /******/ 			7045
 /******/ 		],
-/******/ 		"345": [
+/******/ 		"275": [
 /******/ 			7275
+/******/ 		],
+/******/ 		"407": [
+/******/ 			6407
+/******/ 		],
+/******/ 		"521": [
+/******/ 			1521
 /******/ 		],
 /******/ 		"568": [
 /******/ 			9586,
@@ -511,7 +521,7 @@ __webpack_require__.d(exports, {
 /******/ 				if(installedChunkData) {
 /******/ 					promises.push(installedChunkData[2]);
 /******/ 				} else {
-/******/ 					if(!/^(14|45|568|723|778|866)$/.test(chunkId)) {
+/******/ 					if(!/^(14|275|407|45|521|568|723|778|866)$/.test(chunkId)) {
 /******/ 						// setup Promise in chunk cache
 /******/ 						var promise = new Promise((resolve, reject) => (installedChunkData = installedChunks[chunkId] = [resolve, reject]));
 /******/ 						promises.push(installedChunkData[2] = promise);
